@@ -124,6 +124,9 @@ hr {
     text-decoration: none;
     color: #11999E;
 }
+.footer-link:hover{
+    color: #EAF6F6;
+}
 
 .BUTTON_JVC {
     margin-bottom: 25px;
