@@ -2,14 +2,14 @@ body{
     margin:0;
     text-align: center;
     font-family: 'Merriweather', serif;
-    color:#40514E;
 }
 
 h1 {
     margin: 50px auto 0 auto;
-    font-family: 'Sacramento', cursive;
-    font-size: 562%;
-    color: #11999E;
+    font-family: Montserrat;
+    font-size: 462%;
+    color: #919191;
+    background-color:#333333;
 
 
 }
@@ -17,20 +17,25 @@ h2{
     font-family: 'Montserat',sans-serif;
     font-size: 1.5rem;
     margin-top: 10px;
-    color:#11999E;
+    color: #919191;
     font-weight: normal;
 ;
 }
 
 h3{
     font-family: 'Montserat',sans-serif;
-    color: #66BFBF;
+    color: #919191;
 }
 
 .blue{
-    background-color: #E4f9f5;
+    background-color: #333333;
     position: relative;
-    padding-top: 100px;
+    padding-top: 10px;
+}
+
+.blue_courses{
+    background-color: #333333;
+    position: relative;
 }
 
 .red{
@@ -60,7 +65,8 @@ h3{
 }
 
 .center{
-    margin:0 90px 0 150px;
+    margin:0 90px 0 90px;
+    padding-top: 0px;
 }
 
 a{
@@ -77,6 +83,7 @@ a{
 
 p{
     line-height:2;
+    color: #919191;
 }
 
 .computer{
@@ -114,7 +121,7 @@ hr {
 }
 
 .bottomdiv{
-    background-color:#66BFBF;
+    background-color:#333333;
     padding-top: 20px;
 
 }

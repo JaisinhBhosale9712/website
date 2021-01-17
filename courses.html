@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>JB_Freelancer</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://img.icons8.com/plasticine/100/000000/monitor.png" type="image/gif">
+    <link rel="icon" href="https://img.icons8.com/plasticine/100/000000/monitor.png" type="image/gif">
+    <link href="https://fonts.googleapis.com/css2?family=Sacramento&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@200&family=Oswald:wght@200&display=swap" rel="stylesheet">
+
+<style>
+
+.main{
+    min-height:100vh;
+}    
+
+.container{
+    display:flex;
+    flex-wrap: wrap;
+    mix-blend-mode: normal;
+    justify-content: center;
+
+  
+}
+
+.container-1{
+    margin: 10px 3vw 25px 3vw ;
+    justify-content: flex-start;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: flex-end;
+    flex-direction: column;
+
+}
+
+.shadow {
+  box-shadow: 0px 0px 30px rgba(0,0,0, 0.6);
+  cursor: pointer;
+}
+
+.box{
+    border:1px #ccc solid;
+    transition: box-shadow 0.1s, transform 0.1s;
+    padding: 20px;
+    padding-bottom: 10px;
+    margin-top: 30px;
+    border-radius:20px;
+    mix-blend-mode: normal;
+    background-color:white;
+    align-items: center;
+    height:470px;
+    
+}
+
+.box_icons{
+    border:2px #ccc solid;
+    transition: box-shadow 0.1s, transform 0.1s;
+    padding: 10px;
+    cursor: pointer;
+    border-radius:5px;
+    mix-blend-mode: normal;
+    background-color:white;
+    align-items: center;
+    
+}
+
+.item1 {
+    justify-content: flex-start;
+    height:100px;
+}
+
+.item2 {
+    justify-content: flex-start;
+}
+
+.item3 {
+    align-items: flex-end;   
+}
+
+.item4 {
+    margin-top: 25px;  
+}
+
+.picture{
+    height:100px;
+    border-radius: 14px;
+    margin-bottom: 10px;
+    
+
+}
+
+.text {
+    font-family: Oswald Bold,sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 400;
+    font-size: 1.1rem;
+    margin-bottom: 17px;
+    text-align: center;
+}
+.text_1 {
+    font-family: sf pro text,-apple-system,BlinkMacSystemFont,Roboto,segoe ui,Helvetica,Arial,sans-serif,apple color emoji,segoe ui emoji,segoe ui symbol;
+    font-weight: 500;
+    font-size: 1.5rem;
+    margin-bottom: 0;
+
+    text-align: center;
+}
+
+li{
+    margin-bottom: 12px; 
+}
+
+.social_media{
+    border-radius: 10px;
+}
+</style>
+
+<script>
+$(document).ready(function(){
+    console.warn("hi");
+    $('.create_shadow').hover(function(event){
+        $(this).addClass('shadow')
+    },function(){
+        $(this).removeClass('shadow')
+    })
+})
+
+</script>
+
+<body>
+    <h1 style="margin-top: 5px; font-family: 'Montserrat';">Available  Course</h1>
+    <div class="blue_courses container main">
+        
+        <div class="box container-1">
+            <div class="item1">
+                <img class="picture" src='../website/images/python.png' alt='python' />
+            </div>
+            <div class="item2">   
+                <h2 style="margin-top: 0; margin-bottom: 8px; ">Back-End Development</h2>         
+                <ul class="text" style="margin-top: 1px; margin-bottom: 10px; padding-left: 0px; list-style: none;">
+                    <li>Customized live course.</li>
+                    <li>Duration 2 days(7 hours + 7 hours).</li>
+                    <li>Web apps to databases/servers via APIs.</li>
+                    <li>Rest APIs , Python basics, Flask, Webapp2.</li>
+                </ul>
+            </div>
+            <div class="item3">
+                <h4 style="margin-top: 0px;" class="text_1">€50</h4>
+                <h4 style="margin-top: 0px; margin-bottom: 10px;">(10% student Discount)</h4>
+                
+            </div>
+            <div class="item4">
+                <a style="margin-right: 30px;" href="mailto: jaisinh.bhosale@tuhh.de" ><img  style="height:80px" class="create_shadow social_media" src="../website/images/email.png"/></a>
+                <a style="margin-left: 30px;" href="https://wa.me/+919819220420?text=Hi Jaisinh, I am interested in Back-End programming course, i would like to know more about the course." target="_blank"><img style="height:80px" class="create_shadow social_media" src="../website/images/whatsapp.png"/></a>
+            </div>
+        </div>  
+
+        <div class="box container-1">
+            <div class="picture item1">
+                <img class="picture" src='../website/images/javascript.png' alt='python' />
+                
+            </div>
+            <div class="item2">   
+                <h2 style="margin-top: 0; margin-bottom: 8px;">Front-End Development</h2>            
+                <ul class="text" style="margin-top: 1px; margin-bottom: 10px; padding-left: 0px; list-style: none;">
+                    <li>Customized live course.</li>
+                    <li>Duration 2 days(7 hours + 7 hours).</li>
+                    <li>REAL world creative and modern website.</li>
+                    <li>You will learn HTML5, CSS3, JQuery/React.</li>
+                </ul>
+            </div>
+            <div class="item3">
+                <h4 style="margin-top: 0px;" class="text_1">€50</h4>
+                <h4 style="margin-top: 0px; margin-bottom: 10px;">(10% student Discount)</h4>
+            </div>
+            <div class="item4">
+                <a style="margin-right: 30px;" href="mailto: jaisinh.bhosale@tuhh.de" ><img  style="height:80px" class="create_shadow" src="../website/images/email.png"/></a>
+                <a style="margin-left: 30px;" href="https://wa.me/+919819220420?text=Hi Jaisinh, I am interested in Front-End programming course, i would like to know more about the course."  target="_blank"><img style="height:80px" class="create_shadow " src="../website/images/whatsapp.png"/></a>
+                </div>
+        </div>
+
+
+
+    </div>
+</body>    
+</html>
